@@ -131,6 +131,7 @@
         case IQActionSheetPickerStyleDatePicker:
             [_pickerView setHidden:YES];
             [_datePicker setHidden:NO];
+            [_datePicker setPreferredDatePickerStyle:UIDatePickerStyleWheels];
             [_datePicker setDatePickerMode:UIDatePickerModeDate];
             break;
         case IQActionSheetPickerStyleDateTimePicker:
