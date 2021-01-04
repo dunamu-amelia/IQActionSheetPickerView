@@ -129,7 +129,6 @@
 				E640EA5B182EADC100151E83 /* Frameworks */,
 				E640EA5C182EADC100151E83 /* Resources */,
 				5F9EB4379FF05D9AA7B11A5B /* [CP] Embed Pods Frameworks */,
-				4527A6224D1F2D814E4333A3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -150,7 +149,7 @@
 				ORGANIZATIONNAME = Iftekhar;
 				TargetAttributes = {
 					E640EA5D182EADC100151E83 = {
-						DevelopmentTeam = 7UUTF6T5P9;
+						DevelopmentTeam = L574T383WJ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -160,6 +159,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = E640EA53182EADC100151E83;
@@ -186,28 +186,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4527A6224D1F2D814E4333A3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ActionSheetPickerView/Pods-ActionSheetPickerView-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5F9EB4379FF05D9AA7B11A5B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ActionSheetPickerView/Pods-ActionSheetPickerView-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ActionSheetPickerView/Pods-ActionSheetPickerView-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/IQActionSheetPickerView/IQActionSheetPickerView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -216,7 +201,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ActionSheetPickerView/Pods-ActionSheetPickerView-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ActionSheetPickerView/Pods-ActionSheetPickerView-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7F597F891828D8BFD5FCB590 /* [CP] Check Pods Manifest.lock */ = {
@@ -361,7 +346,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = NO;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = L574T383WJ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ActionSheetPickerView/ActionSheetPickerView-Prefix.pch";
 				INFOPLIST_FILE = "ActionSheetPickerView/ActionSheetPickerView-Info.plist";
@@ -385,7 +370,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = NO;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = L574T383WJ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ActionSheetPickerView/ActionSheetPickerView-Prefix.pch";
 				INFOPLIST_FILE = "ActionSheetPickerView/ActionSheetPickerView-Info.plist";

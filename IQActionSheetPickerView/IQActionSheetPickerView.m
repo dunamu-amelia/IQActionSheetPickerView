@@ -131,13 +131,18 @@
         case IQActionSheetPickerStyleDatePicker:
             [_pickerView setHidden:YES];
             [_datePicker setHidden:NO];
-            [_datePicker setPreferredDatePickerStyle:UIDatePickerStyleWheels];
+            if (@available(iOS 13.4, *)) {
+                [_datePicker setPreferredDatePickerStyle:UIDatePickerStyleWheels];
+            }
+            
             [_datePicker setDatePickerMode:UIDatePickerModeDate];
             break;
         case IQActionSheetPickerStyleDateTimePicker:
             [_pickerView setHidden:YES];
             [_datePicker setHidden:NO];
-            [_datePicker setDatePickerMode:UIDatePickerModeDateAndTime];
+            if (@available(iOS 13.4, *)) {
+                [_datePicker setDatePickerMode:UIDatePickerModeDateAndTime];
+            }
             break;
         case IQActionSheetPickerStyleTimePicker:
             [_pickerView setHidden:YES];
